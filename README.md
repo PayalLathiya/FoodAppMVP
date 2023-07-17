@@ -4,4 +4,5 @@
 + JavaScript
 
 ### Previews
-<img width=350 height=700 src="https://raw.githubusercontent.com/PayalLathiya/FoodAppMVP/main/screenshot/video.mp4" />
+https://github.com/PayalLathiya/FoodAppMVP/assets/137601323/ecd97e7b-f163-479d-ae65-192656562cfd
+
