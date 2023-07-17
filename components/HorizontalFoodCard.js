@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native";
 
 import { FONTS, SIZES, COLORS, icons, dummyData } from "../constants";
 
-const HorizontalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
+const HorizontalFoodCard = ({ containerStyle, imageStyle, item, onPress, testID }) => {
   return (
     <TouchableOpacity
       style={{
@@ -12,6 +12,8 @@ const HorizontalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
         backgroundColor: COLORS.lightGray2,
         ...containerStyle,
       }}
+      onPress={onPress}
+      testID={testID}
     >
       {/* image */}
       <Image source={item.image} style={imageStyle} />
